@@ -23,6 +23,6 @@ import mwdictionary as mw
 definition = mw.define('flock', 'yourkeyhere')
 print(definition['definition'])
 ```
-```python
+```
 output > a group of animals (such as birds or sheep) assembled or herded together
 ```
