@@ -1,4 +1,7 @@
 # About
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/dbd964c0d12e442cbe461aa11d915e92)](https://app.codacy.com/gh/TheoXiong7/mwdictionary?utm_source=github.com&utm_medium=referral&utm_content=TheoXiong7/mwdictionary&utm_campaign=Badge_Grade_Settings)
+
 I made this Merriam-Webster dictionary api wrapper for python. 
 Go to https://dictionaryapi.com/ to retrieve a free api key.
 
