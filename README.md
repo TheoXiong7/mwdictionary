@@ -5,8 +5,9 @@ Go to https://dictionaryapi.com/ to retrieve a free api key.
 
 ## Usage
 ```python
-import mwdictionary as mw
-definition = mw.define('flock', 'yourkeyhere')
+import mwdictionary
+mw = mwdictionary.MWDictionary('your-key')
+definition = mw.define('flock')
 ```
 ## Data Structure
 ```python
@@ -16,14 +17,4 @@ definition = mw.define('flock', 'yourkeyhere')
 'type': 'noun',
 'offensive': 'False'
 }
-```
-
-## Example
-```python
-import mwdictionary as mw
-definition = mw.define('flock', 'yourkeyhere')
-print(definition['definition'])
-```
-```
-output > a group of animals (such as birds or sheep) assembled or herded together
 ```
